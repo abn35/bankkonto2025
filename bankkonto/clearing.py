@@ -20,65 +20,56 @@ Sveriges Riksbank 1000-1099
 Nordea 1100-1199
 Danske Bank 1200-1399
 Nordea 1400-2099
-Ålandsbanken 2300-2399
+Ålandsbanken Sverige AB 2300-2399
 Danske Bank 2400-2499
-Nordea 3000-3399
+Nordea (exkl. personkonton, cl 3300) 3000-3399
+Nordea Personkonto 3300
 Länsförsäkringar Bank 3400-3409
-Nordea 3410-4999
+Nordea (exkl. personkonton, cl 3782) 3410-3999
+Nordea Personkonto 3782
+Nordea 4000-4999
 SEB 5000-5999
 Handelsbanken 6000-6999
-Swedbank 7000-8999
+Swedbank 7000-7999
+Swedbank 8000-8999
 Länsförsäkringar Bank 9020-9029
 Citibank 9040-9049
 Länsförsäkringar Bank 9060-9069
-Calyon Bank 9080-9089
+Multitude Bank plc 9070-9079
 Nordnet Bank 9100-9109
 SEB 9120-9124
 SEB 9130-9149
 Skandiabanken 9150-9169
-IKANO Banken 9170-9179
+Ikano Bank 9170-9179
 Danske Bank 9180-9189
 DNB Bank 9190-9199
 Marginalen Bank 9230-9239
-SBAB Bank 9250-9259
+SBAB 9250-9259
 DNB Bank 9260-9269
-ICA Banken 9270-9279
+ICA Banken AB 9270-9279
 Resurs Bank 9280-9289
 Swedbank 9300-9349
-Pareto Öhman 9380-9389
-Landshypotek 9390-9399
-Forex Bank 9400-9449
-GE Money Bank 9460-9469
-BNP Paribas 9470-9479
-Parex Bank 9480-9489
-Nordea 9500-9549
-Avanza Bank 9550-9569
-Sparbanken Syd 9570-9579
-Exchange Finans Europe 9580-9589
-Erik Penser Bankaktiebolag 9590-9599
+Landshypotek Bank 9390-9399
+Santander Consumer Bank AS 9460-9469
+BNP Paribas SA 9470-9479
+Avanza Bank AB 9550-9569
+Aion Bank SA 9580-9589
+Erik Penser AB 9590-9599
 Volvofinans Bank 9610-9619
 Bank of China (Luxembourg) 9620-9629
-Lån & Spar Bank 9630-9639
-Nordax Finans 9640-9649
-MedMera Bank 9650-9659
-Svea Bank 9660-9669
+Lån & Spar Bank Sverige 9630-9639
+NOBA Bank Group AB 9640-9649
+Svea Bank AB 9660-9669
 JAK Medlemsbank 9670-9679
-Bluestep Finans 9680-9689
-Folkia 9690-9699
+Bluestep Finans AB 9680-9689
+Lunar Bank A/S 9710-9719
 Ekobanken 9700-9709
-Aman Bank (ub) 9710-9719
-Netfonds Bank (ub) 9720-9729
+Northmill Bank AB 9750-9759
 Klarna Bank 9780-9789
-Privatgirot 9860-9869
-Nasdaq-OMX 9870-9879
-Riksgälden 9880-9899
-Nykredit 9950
-Teller Branch Norway 9951
-Bankernas Automatbolag 9952
-Teller Branch Sweden 9953
-Kortaccept Nordic AB 9954
-Nordea 9960-9969
+Riksgälden 9880-9889
+Nordea (Plusgirot) 9960-9969
 """
+
 
 clearing_nbrs = [
     (_parse_result[0], int(_parse_result[1]), int(_parse_result[2]) if _parse_result[2] else int(_parse_result[1]))
