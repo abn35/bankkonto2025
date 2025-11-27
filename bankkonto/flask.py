@@ -6,7 +6,7 @@ WTForms validator
 
 """
 
-import bankkonto
+import bankkonto2025 as bankkonto
 
 try:
     from wtforms.validators import ValidationError
