@@ -2,9 +2,9 @@ import sys
 import re
 from typing import Tuple, List
 
-from bankkonto.__version__ import __version__, version  # noqa
-from bankkonto.exceptions import BankkontoException, BankkontoValidationError  # noqa
-from bankkonto.account import validate  # noqa
+from bankkonto2025.__version__ import __version__, version  # noqa
+from bankkonto2025.exceptions import BankkontoException, BankkontoValidationError  # noqa
+from bankkonto2025.account import validate  # noqa
 
 __all__ = [
     "__version__",
