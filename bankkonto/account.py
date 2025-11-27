@@ -19,7 +19,7 @@ from __future__ import unicode_literals
 import re
 from typing import Literal
 
-from bankkonto.exceptions import BankkontoValidationError, SwedbankBankkontoValidationError
+from bankkonto2025.exceptions import BankkontoValidationError, SwedbankBankkontoValidationError
 
 TYPE_1_ACCOUNT_NUMBERS = """
 Svea Bank AB 9660-9669 00000xxxxxxC 2
